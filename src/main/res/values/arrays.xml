@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="variants_entries">
+        <item>Clásico</item><item>Fractal</item><item>Cruz 4D</item>
+        <item>Thermo</item><item>Killer</item>
+    </string-array>
+    <string-array name="variants_values">
+        <item>classic</item><item>fractal</item><item>cross</item>
+        <item>thermo</item><item>killer</item>
+    </string-array>
+
+    <string-array name="difficulty_entries">
+        <item>Fácil</item><item>Media</item><item>Difícil</item>
+    </string-array>
+    <string-array name="difficulty_values">
+        <item>0</item><item>1</item><item>2</item>
+    </string-array>
+
+    <!-- Para Hexadoku -->
+    <string-array name="hex_symbols">
+        <item>0</item><item>1</item><item>2</item><item>3</item>
+        <item>4</item><item>5</item><item>6</item><item>7</item>
+        <item>8</item><item>9</item><item>A</item><item>B</item>
+        <item>C</item><item>D</item><item>E</item><item>F</item>
+    </string-array>
+</resources>

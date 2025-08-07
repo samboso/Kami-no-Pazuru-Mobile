@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/action_undo" android:icon="@drawable/ic_undo_24"
+        android:title="Deshacer" android:showAsAction="ifRoom"/>
+    <item android:id="@+id/action_redo" android:icon="@drawable/ic_redo_24"
+        android:title="Rehacer" android:showAsAction="ifRoom"/>
+    <item android:id="@+id/action_info" android:icon="@drawable/ic_info_24"
+        android:title="@string/info" android:showAsAction="ifRoom"/>
+</menu>

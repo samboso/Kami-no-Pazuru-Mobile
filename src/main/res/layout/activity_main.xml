@@ -1,0 +1,42 @@
+<androidx.drawerlayout.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/drawer_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar_main"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="?attr/colorPrimary" />
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button android:id="@+id/btn_classic" android:text="Clásico"
+                android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+            <Button android:id="@+id/btn_fractal" android:text="Fractal"
+                android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+            <Button android:id="@+id/btn_cross4d" android:text="Cruz 4D"
+                android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+            <Button android:id="@+id/btn_thermo" android:text="Thermo"
+                android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+            <Button android:id="@+id/btn_killer" android:text="Killer"
+                android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+        </LinearLayout>
+    </LinearLayout>
+
+    <com.google.android.material.navigation.NavigationView
+        android:id="@+id/nav_view"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_gravity="start"
+        app:menu="@menu/drawer_menu"/>
+</androidx.drawerlayout.widget.DrawerLayout>

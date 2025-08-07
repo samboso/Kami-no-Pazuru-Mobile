@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Theme.Sudoku" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/purple_500</item>
+        <item name="android:windowAnimationStyle">@style/AppWindowAnimation</item>
+    </style>
+
+    <style name="Theme.Sudoku.HC" parent="Theme.Sudoku"/>
+
+    <!-- Ventana fade-through -->
+    <style name="AppWindowAnimation">
+        <item name="android:activityOpenEnterAnimation">@anim/fade_through_enter</item>
+        <item name="android:activityOpenExitAnimation">@anim/fade_through_exit</item>
+        <item name="android:activityCloseEnterAnimation">@anim/fade_through_enter</item>
+        <item name="android:activityCloseExitAnimation">@anim/fade_through_exit</item>
+    </style>
+
+</resources>
+

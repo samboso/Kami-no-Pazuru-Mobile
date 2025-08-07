@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="cell_background">#FFFFFF</color>
+    <color name="cell_alt_background">#E0E0E0</color>
+    <color name="selected_cell_background">#FFD54F</color>
+    <color name="row_col_highlight">#FFF176</color>
+    <color name="inactive_cell_background">#BDBDBD</color>
+
+    <color name="cell_fixed_text">#000000</color>
+    <color name="cell_user_text">#000000</color>
+    <color name="cell_correct_text">#008000</color>
+    <color name="cell_wrong_text">#FF0000</color>
+</resources>

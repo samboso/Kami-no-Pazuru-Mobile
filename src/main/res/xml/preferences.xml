@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <SwitchPreferenceCompat
+        android:key="pref_hc"
+        android:title="Alto contraste"
+        android:summary="Usar colores con mayor contraste"/>
+
+    <SwitchPreferenceCompat
+        android:key="pref_autonotes"
+        android:title="Auto-notas"
+        android:summary="Mostrar candidatos válidos automáticamente"/>
+
+    <SwitchPreferenceCompat
+        android:key="pref_left_handed"
+        android:title="Modo zurdo"
+        android:summary="Coloca el botón flotante a la izquierda"/>
+
+</PreferenceScreen>

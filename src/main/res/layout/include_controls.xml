@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:gravity="center_vertical"
+    android:padding="8dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <!-- Variantes y dificultad -->
+    <TextView android:text="@string/variant_label" android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <Spinner android:id="@+id/sp_variant" android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <TextView android:text="@string/difficulty_label" android:layout_width="wrap_content"
+        android:layout_height="wrap_content" android:paddingStart="16dp"/>
+    <Spinner android:id="@+id/sp_diff" android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <!-- Pistas -->
+    <Button
+        android:id="@+id/btn_hint"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Pista (3)"
+        android:paddingStart="8dp"/>
+
+    <!-- Borrar todo -->
+    <Button
+        android:id="@+id/btn_clear_all"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/reset_all_label"
+        android:paddingStart="8dp"/>
+
+    <!-- Temporizador -->
+    <TextView
+        android:id="@+id/timer_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingStart="8dp"
+        android:text="00:00"/>
+</LinearLayout>

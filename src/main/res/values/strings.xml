@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- App -->
+    <string name="app_name">Sudoku</string>
+
+    <!-- Variantes -->
+    <string name="variant_classic">Clásico</string>
+    <string name="variant_fractal">Fractal</string>
+    <string name="variant_cross">Cruz 4D</string>
+    <string name="variant_thermo">Thermo</string>
+    <string name="variant_killer">Killer</string>
+
+    <string name="title_activity_sudoku">Sudoku</string>
+    <string name="variant_label">Modo:</string>      <!-- (alias “Modo:” si prefieres) -->
+    <string name="difficulty_label">Dificultad:</string>
+    <string name="hint_label">Pista (%1$d)</string>
+    <string name="restart_label">Reiniciar</string>
+    <string name="export_label">Exportar CSV</string>
+    <string name="reset_all_label">Borrar todo</string>
+    <string name="enter_number">Introduce un número</string>
+    <string name="clear">Borrar</string>
+    <string name="timer_label">Tiempo</string>
+    <string name="puzzle_solved_message">¡Puzzle resuelto en %1$s!</string>
+    <string name="info">Info</string>
+
+    <!-- Botones menú superior -->
+    <string name="undo">Deshacer</string>
+    <string name="redo">Rehacer</string>
+
+    <!-- Estadísticas -->
+    <string name="stats_title">Estadísticas</string>
+    <string name="stats_puzzles_solved">Puzzles resueltos: %1$d</string>
+    <string name="stats_average_time">Tiempo medio: %1$s</string>
+    <string name="stats_total_time">Tiempo total: %1$s</string>
+
+    <!-- Drawer -->
+    <string name="navigation_drawer_open">Abrir menú</string>
+    <string name="navigation_drawer_close">Cerrar menú</string>
+    <string name="nav_home">Inicio</string>
+    <string name="nav_new">Nuevo Sudoku</string>
+    <string name="nav_profile">Perfil</string>
+    <string name="nav_stats">Estadísticas</string>
+    <string name="nav_settings">Ajustes</string>
+    <string name="nav_about">Acerca de</string>
+    <string name="nav_history">Historial</string>
+
+    <!-- About -->
+    <string name="about_text">
+        Sudoku Experimental&#10;&#10;
+        Esta aplicación es una adaptación móvil que incluye varios modos de sudoku:
+        clásico, fractal, cruz 4D, thermo y killer.&#10;
+        Selecciona variante y dificultad, usa pistas, reinicia y exporta el puzzle.&#10;
+        La función de cubo 3D/2D se ha omitido en esta versión.
+    </string>
+
+    <!-- Hexadoku -->
+    <string-array name="hex_symbols">
+        <item>0</item><item>1</item><item>2</item><item>3</item>
+        <item>4</item><item>5</item><item>6</item><item>7</item>
+        <item>8</item><item>9</item><item>A</item><item>B</item>
+        <item>C</item><item>D</item><item>E</item><item>F</item>
+    </string-array>
+
+</resources>
